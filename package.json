@@ -8,7 +8,9 @@
         "travel",
         "recreation"
     ],
-    "version": "0.1.0",
+    "version": "1.0.0",
+    "private": true,
+    "repository": "https://github.com/TheDevCodingKen/san-diego-top-spots",
     "main": "main.js",
     "scripts": {
         "test": "mocha --exit"
