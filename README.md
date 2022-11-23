@@ -12,4 +12,6 @@ Steps Taken:
 6. Conduct TDD (Test Driven Development) by writing code that passes HTML and JavaScript tests based on Mocha test framework.
 7. Push my project into a GitHub repository.
 
+[Live Link](https://thedevcodingken.github.io/san-diego-top-spots/)
+
 Contents of this site are © Copyright 2022 TheDevCodingKen. All rights reserved.
