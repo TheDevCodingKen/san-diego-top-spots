@@ -1,28 +1,33 @@
 {
-    "author": "TheDevCodingKen",
-    "description": "The top spot to read all about San Diego Top Spots.",
-    "name": "san-diego-top-spots",
-    "keywords": [
-        "san diego",
-        "points of interest",
-        "travel",
-        "recreation"
-    ],
-    "version": "1.0.0",
-    "private": true,
-    "repository": "https://github.com/TheDevCodingKen/san-diego-top-spots",
-    "main": "main.js",
-    "scripts": {
-        "test": "mocha --exit"
-    },
-    "dependencies": {
-        "chai": "^4.0.2",
-        "express": "^4.15.3",
-        "fix-path": "^4.0.0",
-        "jquery": "^3.6.0",
-        "lodash": "^4.17.4",
-        "mocha": "^5.2.0",
-        "morgan": "^1.8.2",
-        "nightmare": "^2.10.0"
-    }
+  "author": "TheDevCodingKen",
+  "description": "The top spot to read all about San Diego Top Spots.",
+  "name": "san-diego-top-spots",
+  "keywords": [
+    "san diego",
+    "points of interest",
+    "travel",
+    "recreation"
+  ],
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "homepage": "https://github.com/TheDevCodingKen/san-diego-top-spots#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDevCodingKen/san-diego-top-spots"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "fix-path": "^4.0.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.4",
+    "mocha": "^5.2.0",
+    "morgan": "^1.8.2",
+    "nightmare": "^2.10.0"
+  }
 }
