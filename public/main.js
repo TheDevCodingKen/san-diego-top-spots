@@ -1,0 +1,19 @@
+$(document).ready(function() {
+    $.getJSON('./data.json', function(data){
+        console.log(data);
+        var topSpotsData = [];
+
+        // iterate through the array
+        // create a table row for each spot
+        // create a link to the location using longitude and latitude
+
+    $.each(data, function(key,value) {
+        topSpotsData += '<tr>';
+        topSpotsData += '<td>' +value.name+'</td>';
+        topSpotsData += '<td>' +value.description+'</td>';
+        topSpotsData += '<td> <a href="https://www.google.com/maps?q=' +value.location+ '">' + "<button>View Location</button>" + '</a></td>';
+        topSpotsData += '</tr>';
+    });
+    $("#top-spots-table").append(topSpotsData);
+})
+});
